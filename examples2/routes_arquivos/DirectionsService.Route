@@ -1,0 +1,204 @@
+/**/_xdc_._p3d52i && _xdc_._p3d52i( {
+   "geocoded_waypoints" : [
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "EjBKaXLDs24gQ29uZGUgZGUgU3VwZXJ1bmRhIDI5OCwgTGltYSAxNTAwMSwgUGVyw7o",
+         "types" : [ "street_address" ]
+      },
+      {
+         "geocoder_status" : "OK",
+         "place_id" : "ChIJs8tXCrLIBZERVAxwEJ5O8IQ",
+         "types" : [ "street_address" ]
+      }
+   ],
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : -12.0439683,
+               "lng" : -77.0220453
+            },
+            "southwest" : {
+               "lat" : -12.0473883,
+               "lng" : -77.0333588
+            }
+         },
+         "copyrights" : "Dados cartográficos ©2015 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "1,6 km",
+                  "value" : 1632
+               },
+               "duration" : {
+                  "text" : "8 minutos",
+                  "value" : 472
+               },
+               "end_address" : "Jirón Amazonas 462, Lima 15001, Peru",
+               "end_location" : {
+                  "lat" : -12.04464,
+                  "lng" : -77.0220453
+               },
+               "start_address" : "Jirón Conde de Superunda 298, Lima 15001, Peru",
+               "start_location" : {
+                  "lat" : -12.0441203,
+                  "lng" : -77.0324131
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "32 m",
+                        "value" : 32
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 5
+                     },
+                     "end_location" : {
+                        "lat" : -12.0439683,
+                        "lng" : -77.0326603
+                     },
+                     "html_instructions" : "Siga na direção \u003cb\u003enoroeste\u003c/b\u003e na \u003cb\u003eJirón Conde de Superunda\u003c/b\u003e em direção à \u003cb\u003eJirón Cailloma\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "vjohApkduM]p@"
+                     },
+                     "start_location" : {
+                        "lat" : -12.0441203,
+                        "lng" : -77.0324131
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0,1 km",
+                        "value" : 127
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 34
+                     },
+                     "end_location" : {
+                        "lat" : -12.0448788,
+                        "lng" : -77.0333588
+                     },
+                     "html_instructions" : "Vire à \u003cb\u003eesquerda\u003c/b\u003e na \u003cb\u003eJirón Cailloma\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "xiohAbmduMtDjC"
+                     },
+                     "start_location" : {
+                        "lat" : -12.0439683,
+                        "lng" : -77.0326603
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0,3 km",
+                        "value" : 259
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 88
+                     },
+                     "end_location" : {
+                        "lat" : -12.0461495,
+                        "lng" : -77.0313745
+                     },
+                     "html_instructions" : "Vire à \u003cb\u003eesquerda\u003c/b\u003e na 1ª rua transversal para \u003cb\u003eJirón Callao\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "noohAnqduMPWZc@tAkC?E?C?A@C@CtBqD"
+                     },
+                     "start_location" : {
+                        "lat" : -12.0448788,
+                        "lng" : -77.0333588
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0,3 km",
+                        "value" : 256
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 87
+                     },
+                     "end_location" : {
+                        "lat" : -12.0473883,
+                        "lng" : -77.02939809999999
+                     },
+                     "html_instructions" : "Continue para \u003cb\u003eJirón Huallaga\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "lwohA`eduMNq@\\m@DIb@u@JMNUbCeE"
+                     },
+                     "start_location" : {
+                        "lat" : -12.0461495,
+                        "lng" : -77.0313745
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0,6 km",
+                        "value" : 600
+                     },
+                     "duration" : {
+                        "text" : "3 minutos",
+                        "value" : 170
+                     },
+                     "end_location" : {
+                        "lat" : -12.0449552,
+                        "lng" : -77.02528599999999
+                     },
+                     "html_instructions" : "Vire à \u003cb\u003eesquerda\u003c/b\u003e na \u003cb\u003eJirón Lampa\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "d_phAvxcuM}DgCiDuBSKUSqBqAEGAE?G?IDi@FmAZaF@]?OAMCO"
+                     },
+                     "start_location" : {
+                        "lat" : -12.0473883,
+                        "lng" : -77.02939809999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0,4 km",
+                        "value" : 358
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 88
+                     },
+                     "end_location" : {
+                        "lat" : -12.04464,
+                        "lng" : -77.0220453
+                     },
+                     "html_instructions" : "Continue em frente na \u003cb\u003eJirón Amazonas\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eO destino estará à esquerda\u003c/div\u003e",
+                     "maneuver" : "straight",
+                     "polyline" : {
+                        "points" : "~oohA`_cuMWk@[wEWqDA_@AYNwC"
+                     },
+                     "start_location" : {
+                        "lat" : -12.0449552,
+                        "lng" : -77.02528599999999
+                     },
+                     "travel_mode" : "DRIVING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "vjohApkduM]p@tDjCl@{@tAqC?EBGtBqDNq@b@w@n@cArC{EgJ}FSKUSwByAAMDs@d@}IE]Wk@[wEYqEAYNwC"
+         },
+         "summary" : "Jirón Lampa",
+         "warnings" : [],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}
+ )

@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bitter-Regular'), url(http://fonts.gstatic.com/s/bitter/v7/SHIcXhdd5RknatSgOzyEkA.woff) format('woff');
+}
+@font-face {
+  font-family: 'Convergence';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Convergence-Regular'), url(http://fonts.gstatic.com/s/convergence/v5/INPSrw23F_B9ixE5wON7E4bN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(http://fonts.gstatic.com/s/droidsans/v6/s-BiyweUPV0v-yRb-cjciBsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Ubuntu Mono'), local('UbuntuMono-Regular'), url(http://fonts.gstatic.com/s/ubuntumono/v6/ViZhet7Ak-LRXZMXzuAfkYbN6UDyHWBl620a-IRfuBk.woff) format('woff');
+}

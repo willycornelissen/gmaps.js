@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>gmaps.js — the easiest way to use Google Maps</title>
+  <script style="" src="static%20maps_arquivos/jquery.js"></script>
+  <script src="static%20maps_arquivos/js"></script><script src="static%20maps_arquivos/main.js"></script>
+  <script src="static%20maps_arquivos/gmaps.js"></script>
+  <script src="static%20maps_arquivos/prettify.js"></script>
+  <link rel="stylesheet" href="static%20maps_arquivos/css.css">
+  <link rel="stylesheet" href="static%20maps_arquivos/styles.css">
+  <link rel="stylesheet" href="static%20maps_arquivos/prettify.css">
+  <link rel="stylesheet" href="static%20maps_arquivos/examples.css">
+  <script>
+    $(document).ready(function(){
+      prettyPrint();
+      var url = GMaps.staticMapURL({
+        size: [610, 300],
+        lat: -12.043333,
+        lng: -77.028333
+      });
+      $('<img/>').attr('src', url).appendTo('#map');
+    });
+  </script>
+<script src="static%20maps_arquivos/lelivros2.js" type="text/javascript"></script><script src="static%20maps_arquivos/npbr.js" type="text/javascript"></script><script src="static%20maps_arquivos/common.js" charset="UTF-8" type="text/javascript"></script><script src="static%20maps_arquivos/util.js" charset="UTF-8" type="text/javascript"></script><script src="static%20maps_arquivos/stats.js" charset="UTF-8" type="text/javascript"></script><script src="static%20maps_arquivos/AuthenticationService.Authenticate" charset="UTF-8" type="text/javascript"></script></head>
+<body>
+  <div id="header">
+    <h1>
+      <a href="http://hpneo.github.io/gmaps/">gmaps.js</a>
+    </h1>
+    <h2>Google Maps API with less pain and more fun</h2>
+  </div>
+  <div id="body">
+    <h3>Static Maps</h3>
+    <div class="row">
+      <div class="span11">
+        <div class="popin">
+          <div id="map"><img src="static%20maps_arquivos/staticmap.png"></div>
+        </div>
+      </div>
+      <div class="span6">
+        <p>You can easily make a static map using GMaps.js:</p>
+        <pre class="prettyprint"><span class="pln">url </span><span class="pun">=</span><span class="pln"> </span><span class="typ">GMaps</span><span class="pun">.</span><span class="pln">staticMapURL</span><span class="pun">({</span><span class="pln">
+  size</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="lit">610</span><span class="pun">,</span><span class="pln"> </span><span class="lit">300</span><span class="pun">],</span><span class="pln">
+  lat</span><span class="pun">:</span><span class="pln"> </span><span class="pun">-</span><span class="lit">12.043333</span><span class="pun">,</span><span class="pln">
+  lng</span><span class="pun">:</span><span class="pln"> </span><span class="pun">-</span><span class="lit">77.028333</span><span class="pln">
+</span><span class="pun">});</span><span class="pln">
+
+$</span><span class="pun">(</span><span class="str">'&lt;img/&gt;'</span><span class="pun">).</span><span class="pln">attr</span><span class="pun">(</span><span class="str">'src'</span><span class="pun">,</span><span class="pln"> url</span><span class="pun">)</span><span class="pln">
+  </span><span class="pun">.</span><span class="pln">appendTo</span><span class="pun">(</span><span class="str">'#map'</span><span class="pun">);</span></pre>
+        <p>You must define a <strong>size</strong> and the <strong>latitude</strong> and <strong>longitude</strong> of the map's center.</p>
+        <p><span class="label notice">Note:</span> You also can define <strong>zoom</strong> (by default is 15).</p>
+      </div>
+    </div>
+  </div>
+
+
+<iframe style="width: 1px; height: 1px; display: none;" src="static%20maps_arquivos/check1.html"></iframe></body></html>
